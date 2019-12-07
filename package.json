@@ -1,0 +1,31 @@
+{
+  "name": "docker-next",
+  "version": "1.0.0",
+  "main": "pages/index.tsx",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next && micro",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@types/node": "^12.12.14",
+    "@types/react": "^16.9.15",
+    "@apollo/react-hooks": "3.0.0",
+    "@apollo/react-ssr": "3.0.0",
+    "apollo-cache-inmemory": "1.6.3",
+    "apollo-client": "2.6.4",
+    "apollo-link-http": "1.5.15",
+    "apollo-server-micro": "^2.9.13",
+    "graphql": "^14.5.8",
+    "graphql-tag": "2.10.1",
+    "isomorphic-unfetch": "^3.0.0",
+    "micro": "^9.3.4",
+    "next": "^9.1.4",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.7.3"
+  }
+}
