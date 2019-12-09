@@ -2,8 +2,13 @@ import { NextPage } from "next";
 
 import { withApollo } from "../lib/apollo";
 
+import Users from "./../components/Users";
+
 const Home: NextPage<{ userAgent: string }> = ({ userAgent }) => (
-  <h1>Hello world! - user agent: {userAgent}</h1>
+  <>
+    <h1>Hello world! - user agent: {userAgent}</h1>
+    <Users />
+  </>
 );
 
 Home.getInitialProps = async ({ req }) => {

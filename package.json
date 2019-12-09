@@ -1,10 +1,10 @@
 {
   "name": "docker-next",
   "version": "1.0.0",
-  "main": "pages/index.tsx",
+  "main": "pages/api/graphql.ts",
   "license": "MIT",
   "scripts": {
-    "dev": "next && micro",
+    "dev": "next -- -p 3001 & micro",
     "build": "next build",
     "start": "next start"
   },
