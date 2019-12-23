@@ -2,7 +2,8 @@ import { NextPage } from "next";
 
 import { withApollo } from "../lib/apollo";
 
-import Users from "./../components/Users";
+// @ts-ignore
+import Users from "@components/Users";
 
 const Home: NextPage<{ userAgent: string }> = ({ userAgent }) => (
   <>
